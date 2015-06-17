@@ -40,6 +40,16 @@ class Gama_Core_Public {
 	private $version;
 
 	/**
+	 * The version of this plugin.
+	 *
+	 * @since    0.7.0
+	 * @access   private
+	 * @var      string    $version    Check the current theme is Gama.
+	 */
+	private $current_theme;
+	private $current_theme_alt;
+
+	/**
 	 * Initialize the class and set its properties.
 	 *
 	 * @since    0.7.0
@@ -50,6 +60,8 @@ class Gama_Core_Public {
 
 		$this->gama_core = $gama_core;
 		$this->version = $version;
+		$this->current_theme = wp_get_theme( 'gama' );
+		$this->current_theme_alt = wp_get_theme( 'gama-dzeta' );
 
 	}
 
@@ -72,7 +84,12 @@ class Gama_Core_Public {
 		 * class.
 		 */
 
+
 		wp_enqueue_style( $this->gama_core, plugin_dir_url( __FILE__ ) . 'css/gama-core-public.css', array(), $this->version, 'all' );
+		if ( ! ( $this->current_theme->exists() || $this->current_theme_alt->exists() ) ) {
+			wp_enqueue_style( $this->gama_core, plugin_dir_url( __FILE__ ) . 'css/font-awesome.min.css', array(), '4.3.0', 'all' );
+		}
+		wp_enqueue_style( $this->gama_core, plugin_dir_url( __FILE__ ) . 'component.css', array(), null, 'all' );
 
 	}
 
@@ -96,6 +113,10 @@ class Gama_Core_Public {
 		 */
 
 		wp_enqueue_script( $this->gama_core, plugin_dir_url( __FILE__ ) . 'js/gama-core-public.js', array( 'jquery' ), $this->version, false );
+		if ( ! ( $this->current_theme->exists() || $this->current_theme_alt->exists() ) ) {
+			wp_enqueue_script( $this->gama_core, plugin_dir_url( __FILE__ ) . 'js/modernizr.custom.js', array(), '2.8.3 ', false );
+		}
+		wp_enqueue_script( $this->gama_core, plugin_dir_url( __FILE__ ) . 'js/jquery.dlmenu.js', array(), '2.8.3 ', true );
 
 	}
 
