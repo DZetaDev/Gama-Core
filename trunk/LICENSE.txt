@@ -1,8 +1,8 @@
 /*************************************************************************/
 
-    Copyright 2015 DZeta.
+    Copyright 2015 DZeta.biz
 
-    All theme files are licensed under the GNU Public License 2.0 unless
+    All plugin files are licensed under the GNU Public License 2.0 unless
     specified as otherwise within the file itself. Some files may be
     licensed under alternative open source licenses such as MIT, BSD
     or OFL. Refer to individual files for licensing information. If no
