@@ -1,14 +1,20 @@
 # Gama Core
 
+<p align="center">
+    <a target="_blank" href="https://github.com/DZetaDev/Gama-Core/blob/master/LICENSE">
+        <img src="https://img.shields.io/badge/license-GPLv2-blue.svg" alt="GPL v2 License Badge">
+    </a>
+</p>
+
 Gama Core adds Custom Post Types, Taxonomies, Responsive Multi-Level Menu and more...
 
-Gama Core is based on The WordPress Plugin Boilerplate,"A standardized, organized, object-oriented foundation for building high-quality WordPress Plugins." The Boilerplate is based on the [Plugin API](http://codex.wordpress.org/Plugin_API), [Coding Standards](http://codex.wordpress.org/WordPress_Coding_Standards), and [Documentation Standards](http://make.wordpress.org/core/handbook/inline-documentation-standards/php-documentation-standards/).
+Gama Core is based on The WordPress Plugin Boilerplate, "A standardized, organized, object-oriented foundation for building high-quality WordPress Plugins". The Boilerplate is based on the [Plugin API](http://codex.wordpress.org/Plugin_API), [Coding Standards](http://codex.wordpress.org/WordPress_Coding_Standards), and [Documentation Standards](http://make.wordpress.org/core/handbook/inline-documentation-standards/php-documentation-standards/).
 
 ## Features
 
 * Custom Post Types: Portfolio, Review, Testimonial and Team
 * Add new Taxonomies
-* Responsive Multi-Level Menu "A responsive multi-level menu that shows its submenus in their own context, allowing for a space-saving presentation and usage."
+* Responsive Multi-Level Menu "A responsive multi-level menu that shows its sub-menus in their own context, allowing for a space-saving presentation and usage."
 
 ## Contents
 
