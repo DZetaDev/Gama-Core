@@ -78,7 +78,7 @@ A copy of the license is included in the root of the plugin’s directory. The f
 
 ### Licensing
 
-The WordPress Plugin Boilerplate is licensed under the GPL v2 or later;
+Gama Core is licensed under the GPL v2 or later;
 
 ### Includes
 
