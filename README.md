@@ -4,6 +4,7 @@
     <a target="_blank" href="https://github.com/DZetaDev/Gama-Core/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/license-GPLv2-blue.svg" alt="GPL v2 License Badge">
     </a>
+    
 </p>
 
 Gama Core adds Custom Post Types, Taxonomies, Responsive Multi-Level Menu and more...
@@ -13,6 +14,7 @@ Gama Core is based on The WordPress Plugin Boilerplate, "A standardized, organiz
 #### Download:
 
 [![Sheild](https://img.shields.io/badge/release-0.7.0--alpha-lightgrey.svg?style=flat)](https://github.com/DZetaDev/Gama-Core/archive/master.zip)
+[![WordPress plugin](https://img.shields.io/badge/plugin-0.7.0--alpha-lightgrey.svg?style=flat)](https://github.com/DZetaDev/Gama-Core)
 
 Copyright &copy; 2015 DZeta &mdash; All Rights Reserved
 
