@@ -1,0 +1,270 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gama Core\n"
+"POT-Creation-Date: 2015-06-17 16:17-0300\n"
+"PO-Revision-Date: 2015-06-17 16:38-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-gama-core.php:206 includes/class-gama-core.php:208
+msgid "Testimonials"
+msgstr "Depoimentos"
+
+#: includes/class-gama-core.php:207 includes/class-gama-core.php:209
+msgid "Testimonial"
+msgstr "Depoimento"
+
+#: includes/class-gama-core.php:210
+msgid "Add New Testimonial"
+msgstr "Adicionar Novo Depoimento"
+
+#: includes/class-gama-core.php:211
+msgid "New Testimonial"
+msgstr "Novo Depoimento"
+
+#: includes/class-gama-core.php:212
+msgid "Edit Testimonial"
+msgstr "Editar Depoimento"
+
+#: includes/class-gama-core.php:213
+msgid "View Testimonial"
+msgstr "Ver Depoimento"
+
+#: includes/class-gama-core.php:214
+msgid "All Testimonials"
+msgstr "Todos os depoimentos"
+
+#: includes/class-gama-core.php:215
+msgid "Search Testimonials"
+msgstr "Procurar por Depoimentos"
+
+#: includes/class-gama-core.php:216
+msgid "Parent Testimonials:"
+msgstr "Parente Depoimentos:"
+
+#: includes/class-gama-core.php:217
+msgid "No testimonials found."
+msgstr "Não foram encontrados depoimentos."
+
+#: includes/class-gama-core.php:218
+msgid "No testimonials found in Trash."
+msgstr "Não foram encontrados depoimentos  na Lixeira."
+
+#: includes/class-gama-core.php:240
+msgid "Members Team"
+msgstr "Membros da Equipe"
+
+#: includes/class-gama-core.php:241 includes/class-gama-core.php:242
+#: includes/class-gama-core.php:243
+msgid "Team"
+msgstr "Equipe"
+
+#: includes/class-gama-core.php:244
+msgid "Add New Member Team"
+msgstr "Adicionar novo Membro na Equipe"
+
+#: includes/class-gama-core.php:245
+msgid "New  Member Team"
+msgstr "Novo Membro na Equipe"
+
+#: includes/class-gama-core.php:246
+msgid "Edit Team"
+msgstr "Editar equipe"
+
+#: includes/class-gama-core.php:247
+msgid "View Team"
+msgstr "Ver Equipe"
+
+#: includes/class-gama-core.php:248
+msgid "All Members Team"
+msgstr "Todos membros da Equipe"
+
+#: includes/class-gama-core.php:249
+msgid "Search Members Team"
+msgstr "Pesquisar por Membros da Equipe"
+
+#: includes/class-gama-core.php:250
+msgid "Parent Members Team:"
+msgstr "Parente membros da Equipe:"
+
+#: includes/class-gama-core.php:251
+msgid "No members team found."
+msgstr "Nenhum Membro da Equipe encontrado."
+
+#: includes/class-gama-core.php:252
+msgid "No members team found in Trash."
+msgstr "Não há membros da equipe encontrados na lixeira"
+
+#: includes/class-gama-core.php:274 includes/class-gama-core.php:275
+#: includes/class-gama-core.php:277
+msgid "Portfolio"
+msgstr "Portfólio"
+
+#: includes/class-gama-core.php:276
+msgid "Portfolios"
+msgstr "Portfólios"
+
+#: includes/class-gama-core.php:278
+msgid "Add New Portfolio Item"
+msgstr "Adicionar Novo Item de Portfólio"
+
+#: includes/class-gama-core.php:279
+msgid "New Portfolio"
+msgstr "Novo Portfólio"
+
+#: includes/class-gama-core.php:280
+msgid "Edit Portfolio"
+msgstr "Editar Portfólio"
+
+#: includes/class-gama-core.php:281
+msgid "View Portfolio"
+msgstr "Ver Portfólio"
+
+#: includes/class-gama-core.php:282
+msgid "All Portfolios"
+msgstr "Todos Portfólios"
+
+#: includes/class-gama-core.php:283
+msgid "Search Portfolio Items"
+msgstr "Procurar itens do Portfólio"
+
+#: includes/class-gama-core.php:284
+msgid "Parent Portfolios:"
+msgstr "Parente Portfólios:"
+
+#: includes/class-gama-core.php:285
+msgid "No Portfolios found."
+msgstr "Não foram encontrados Portfólios."
+
+#: includes/class-gama-core.php:286
+msgid "No Portfolios found in Trash."
+msgstr "Nenhum Portfólio encontrado na Lixeira"
+
+#: includes/class-gama-core.php:309
+msgid "Portfolio Categories"
+msgstr "Categorias de Portfólio"
+
+#: includes/class-gama-core.php:310
+msgid "Portfolio Category"
+msgstr "Categoria de Portfolio :"
+
+#: includes/class-gama-core.php:334
+msgid "Portfolio Tags"
+msgstr "Tags de Portfólio"
+
+#: includes/class-gama-core.php:335
+msgid "Portfolio Tag"
+msgstr "Tag de Portfólio"
+
+#: includes/class-gama-core.php:359 includes/class-gama-core.php:361
+msgid "Reviews"
+msgstr "Avaliações"
+
+#: includes/class-gama-core.php:360 includes/class-gama-core.php:362
+msgid "Review"
+msgstr "Avaliação"
+
+#: includes/class-gama-core.php:363
+msgid "Add New Review"
+msgstr "Adicionar nova Avaliação"
+
+#: includes/class-gama-core.php:364
+msgid "New Review"
+msgstr "Nova avaliação"
+
+#: includes/class-gama-core.php:365
+msgid "Edit Review"
+msgstr "Editar Avaliação"
+
+#: includes/class-gama-core.php:366
+msgid "View Review"
+msgstr "Ver Avaliação"
+
+#: includes/class-gama-core.php:367
+msgid "All Reviews"
+msgstr "Todas as Avaliações"
+
+#: includes/class-gama-core.php:368
+msgid "Search Reviews"
+msgstr "Pesquisar avaliações"
+
+#: includes/class-gama-core.php:369
+msgid "Parent Reviews:"
+msgstr "Avaliações:"
+
+#: includes/class-gama-core.php:370
+msgid "No reviews found."
+msgstr "Nenhum avaliação encontrada."
+
+#: includes/class-gama-core.php:371
+msgid "No reviews found in Trash."
+msgstr "Nenhuma avaliação encontrada na Lixeira"
+
+#: includes/class-gama-core.php:394
+msgid "Review Categories"
+msgstr "Categorias de avaliação"
+
+#: includes/class-gama-core.php:395
+msgid "Review Category"
+msgstr "Categoria de avaliação"
+
+#: includes/class-gama-core.php:419
+msgid "Review Tags"
+msgstr "Tags de avaliações"
+
+#: includes/class-gama-core.php:420
+msgid "Review Tag"
+msgstr "Tag de avaliação"
+
+#: includes/class-gama-core.php:444
+msgid "Type of Products/Services"
+msgstr "Tipo de Produtos/Serviços"
+
+#: includes/class-gama-core.php:445 includes/class-gama-core.php:454
+msgid "Type of Product/Service"
+msgstr "Tipo de Produto/Serviço"
+
+#: includes/class-gama-core.php:446
+msgid "Search Types of Products/Services"
+msgstr "Procurar tipos de Produtos/Serviços"
+
+#: includes/class-gama-core.php:447
+msgid "All Types of Products/Services"
+msgstr "Todos os tipos de Produtos/Serviços"
+
+#: includes/class-gama-core.php:448
+msgid "Parent Type of Product/Service"
+msgstr "Parente tipo de Produto/Serviço"
+
+#: includes/class-gama-core.php:449
+msgid "Parent Type of Product/Service:"
+msgstr "Parente tipo pai de Produto/Serviço:"
+
+#: includes/class-gama-core.php:450
+msgid "Edit Type of Product/Service"
+msgstr "Editar o tipo de Produto/Serviço"
+
+#: includes/class-gama-core.php:451
+msgid "Update Type of Product/Service"
+msgstr "Atualizar tipo de Produto/Serviço"
+
+#: includes/class-gama-core.php:452
+msgid "Add New Type of Product/Service"
+msgstr "Adicionar novo tipo de Produto/Serviço"
+
+#: includes/class-gama-core.php:453
+msgid "New Type of Product/Service Name"
+msgstr "Novo tipo do Produto/Nome de Serviço"
