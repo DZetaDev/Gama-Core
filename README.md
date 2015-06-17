@@ -130,4 +130,12 @@ The WordPress Plugin Repository directory structure contains three directories:
 
 ## Documentation, FAQs, and More
 
-Coming Soon
+### A question that someone might have
+
+**Is it translation ready?**
+
+Yes, it is, and in addition it also comes with English and Portuguese languages files already translated
+
+**How many elements can I setup for the menu navigation on DL Menu?**
+
+Infinite
