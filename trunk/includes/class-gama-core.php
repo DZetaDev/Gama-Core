@@ -466,4 +466,10 @@ class Gama_Core {
 		register_taxonomy( 'product-type', array( 'review' ), $args );
 
 	}
+
+	function gama_rewrite_flush() {
+		gama_custom_post_types();
+		flush_rewrite_rules();
+	}
+
 }

@@ -41,8 +41,10 @@ function deactivate_gama_core() {
 	Gama_Core_Deactivator::deactivate();
 }
 
+add_action( 'init', 'gama_custom_post_types' );
 register_activation_hook( __FILE__, 'activate_gama_core' );
 register_deactivation_hook( __FILE__, 'deactivate_gama_core' );
+register_activation_hook( __FILE__, 'gama_rewrite_flush' );
 
 /**
  * The core plugin class that is used to define internationalization,
@@ -59,6 +61,10 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-gama-core.php';
  *
  * @since    0.7.0
  */
+
+
+
+
 function run_gama_core() {
 
 	$plugin = new Gama_Core();

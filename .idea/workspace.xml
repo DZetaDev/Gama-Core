@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b5d693-de11-4b94-9696-35512a7a5f8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/languages/gama-core-en_US.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/languages/gama-core-pt_BR.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/languages/gama-core-en_US.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/languages/gama-core-pt_BR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/includes/class-gama-core.php" afterPath="$PROJECT_DIR$/trunk/includes/class-gama-core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/gama-core.php" afterPath="$PROJECT_DIR$/trunk/gama-core.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gama-core-beta.iws" />
@@ -71,12 +69,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gama-core.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gama-core.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trunk/gama-core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9454546" vertical-offset="0" max-vertical-offset="1258">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding />
+            <state vertical-scroll-proportion="0.6041667" vertical-offset="238" max-vertical-offset="1360">
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+              <folding>
+                <element signature="e#7#594#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class-gama-core.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class-gama-core.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trunk/includes/class-gama-core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.2331362" vertical-offset="4374" max-vertical-offset="8075">
-              <caret line="418" column="64" selection-start-line="418" selection-start-column="64" selection-end-line="418" selection-end-column="64" />
+            <state vertical-scroll-proportion="-30.538462" vertical-offset="7230" max-vertical-offset="8177">
+              <caret line="472" column="5" selection-start-line="472" selection-start-column="5" selection-end-line="472" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -146,8 +146,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/trunk/admin/partials/gama-core-admin-display.php" />
-        <option value="$PROJECT_DIR$/trunk/gama-core.php" />
         <option value="$PROJECT_DIR$/trunk/includes/class-gama-core.php" />
+        <option value="$PROJECT_DIR$/trunk/gama-core.php" />
       </list>
     </option>
   </component>
@@ -460,7 +460,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434570136877</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add .mo and .po (en_US and pt_BR)">
+      <created>1434570282291</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1434570282291</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -478,7 +484,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -509,7 +515,8 @@
     <MESSAGE value="README.md" />
     <MESSAGE value=" Improved .gitignore" />
     <MESSAGE value="Adds Custom Post Types, Taxonomies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds Custom Post Types, Taxonomies" />
+    <MESSAGE value="Add .mo and .po (en_US and pt_BR)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .mo and .po (en_US and pt_BR)" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp\www\Gama-DZeta</wordpressPath>
@@ -759,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trunk/gama-core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9454546" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trunk/admin/partials/gama-core-admin-display.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="374">
@@ -777,9 +776,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trunk/includes/class-gama-core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.2331362" vertical-offset="4374" max-vertical-offset="8075">
-          <caret line="418" column="64" selection-start-line="418" selection-start-column="64" selection-end-line="418" selection-end-column="64" />
+        <state vertical-scroll-proportion="-30.538462" vertical-offset="7230" max-vertical-offset="8177">
+          <caret line="472" column="5" selection-start-line="472" selection-start-column="5" selection-end-line="472" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/gama-core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6041667" vertical-offset="238" max-vertical-offset="1360">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+          <folding>
+            <element signature="e#7#594#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
