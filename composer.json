@@ -1,0 +1,24 @@
+{
+  "name"        : "gama/core",
+  "description" : "Wordpress Plugin adds Custom Post Types, Taxonomies, Responsive Multi-Level Menu and more...",
+  "homepage"    : "http://dzeta.biz/plugin/gama-core",
+  "authors"     : [
+    {
+      "name"     : "DZeta",
+      "email"    : "dzeta.webdev@gmail.com",
+      "homepage" : "http://dzeta.biz/",
+      "role"     : "Creator"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/DZetaDev/Gama-Core/issues",
+    "source": "https://github.com/DZetaDev/Gama-Core"
+  },
+  "keywords" : [
+    "gama",
+    "core",
+    "wordpress",
+    "plugin"
+  ],
+  "license" : "GPL v2 or later"
+}
