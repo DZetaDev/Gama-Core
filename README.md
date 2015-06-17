@@ -21,7 +21,7 @@ The WordPress Plugin Boilerplate includes the following files:
 
 ## Installation
 
-The Boilerplate can be installed in one of two ways both of which are documented below. Note that because of its directory structure, the Boilerplate cannot be installed “as-is.”
+Gama Core can be installed in one of two ways both of which are documented below. Note that because of its directory structure
 
 Instead, the options are:
 
