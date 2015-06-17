@@ -66,7 +66,7 @@ Locate the menu item that reads “Gama Core.”
 1. Copy the `gama-core` directory into your `wp-content/plugins` directory.
 2. Create a symbolic link between the `trunk` directory and the plugin. For example: `mklink /J path\to\wp-content\plugins \path\to\Gama-Core\trunk\gama-core`
 3. In the WordPress admin area, navigation to the *Plugins* page
-Locate the menu item that reads “The WordPress Plugin Boilerplate.”
+Locate the menu item that reads “Gama Core.”
 4. Click on *Activate.*
 
 ## Recommended Tools
