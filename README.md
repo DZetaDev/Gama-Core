@@ -6,12 +6,8 @@ Gama Core is based on The WordPress Plugin Boilerplate,"A standardized, organize
 
 ## Features
 
-* Custom Post Types
-** Portfolio
-** Reviews
-** Testimonials
-** Team
-* Taxonomies
+* Custom Post Types: Portfolio, Review, Testimonial and Team
+* Add new Taxonomies
 * Responsive Multi-Level Menu "A responsive multi-level menu that shows its submenus in their own context, allowing for a space-saving presentation and usage."
 
 ## Contents
@@ -110,10 +106,10 @@ The WordPress Plugin Repository directory structure contains three directories:
 
 # Credits
 
-[The WordPress Plugin Repository](http://wppb.io/)
-[Responsive Multi-Level Menu](http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/)
-[Font Awesome](http://fontawesome.io)
-[IcoMoon](http://keyamoon.com/icomoon/)
+* [The WordPress Plugin Repository](http://wppb.io/)
+* [Responsive Multi-Level Menu](http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/)
+* [Font Awesome](http://fontawesome.io)
+* [IcoMoon](http://keyamoon.com/icomoon/)
 
 ## Documentation, FAQs, and More
 
