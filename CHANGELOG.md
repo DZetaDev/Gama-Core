@@ -1,4 +1,4 @@
 # Changelog
 
 ## Version 0.7
-* Version Beta
+* Version pre-Alpha
