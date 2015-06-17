@@ -54,7 +54,7 @@ Locate the menu item that reads “Gama Core.”
 #### On Linux or OS X
 
 1. Copy the `gama-core` directory into your `wp-content/plugins` directory.
-2. Create a symbolic link between the `trunk` directory and the plugin. For example: `ln -s plugin-name/trunk /path/to/wordpress/wp-content/plugins/gama-core`
+2. Create a symbolic link between the `trunk` directory and the plugin. For example: `ln -s gama-core/trunk /path/to/wordpress/wp-content/plugins/gama-core`
 3. In the WordPress admin area, navigation to the *Plugins* page
 Locate the menu item that reads “Gama Core.”
 4. Click on *Activate.*
@@ -101,9 +101,9 @@ Gama Core is licensed under the GPL v2 or later;
 
 Classes, or third-party libraries, there are three locations in which said files may go:
 
-* `plugin-name/includes` is where functionality shared between the admin area and the public-facing parts of the site reside
-* `plugin-name/admin` is for all admin-specific functionality
-* `plugin-name/public` is for all public-facing functionality
+* `gama-core/includes` is where functionality shared between the admin area and the public-facing parts of the site reside
+* `gama-core/admin` is for all admin-specific functionality
+* `gama-core/public` is for all public-facing functionality
 
 Note that previous versions of the Boilerplate did not include `Gama_Core_Loader` but this class is used to register all filters and actions with WordPress.
 
