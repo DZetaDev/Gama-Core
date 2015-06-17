@@ -10,6 +10,12 @@ Gama Core adds Custom Post Types, Taxonomies, Responsive Multi-Level Menu and mo
 
 Gama Core is based on The WordPress Plugin Boilerplate, "A standardized, organized, object-oriented foundation for building high-quality WordPress Plugins". The Boilerplate is based on the [Plugin API](http://codex.wordpress.org/Plugin_API), [Coding Standards](http://codex.wordpress.org/WordPress_Coding_Standards), and [Documentation Standards](http://make.wordpress.org/core/handbook/inline-documentation-standards/php-documentation-standards/).
 
+#### Download:
+
+[![Sheild](https://img.shields.io/badge/release-0.7.0--alpha-lightgrey.svg?style=flat)](https://github.com/DZetaDev/Gama-Core/archive/master.zip)
+
+Copyright &copy; 2015 DZeta &mdash; All Rights Reserved
+
 ## Features
 
 * Custom Post Types: Portfolio, Review, Testimonial and Team
@@ -30,6 +36,11 @@ The WordPress Plugin Boilerplate includes the following files:
 Gama Core can be installed in one of two ways both of which are documented below. Note that because of its directory structure
 
 Instead, the options are:
+
+#### Requirements
+
+* PHP 5.3 or later
+* WordPress 3.9.0 or later
 
 ### Copying a Directory
 
