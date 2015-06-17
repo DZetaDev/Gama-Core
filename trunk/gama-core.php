@@ -29,7 +29,7 @@ if ( ! defined( 'WPINC' ) ) {
  */
 function activate_gama_core() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-gama-core-activator.php';
-	Plugin_Name_Activator::activate();
+	Gama_Core_Activator::activate();
 }
 
 /**
@@ -38,7 +38,7 @@ function activate_gama_core() {
  */
 function deactivate_gama_core() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-gama-core-deactivator.php';
-	Plugin_Name_Deactivator::deactivate();
+	Gama_Core_Deactivator::deactivate();
 }
 
 register_activation_hook( __FILE__, 'activate_gama_core' );
