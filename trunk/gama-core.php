@@ -53,6 +53,11 @@ register_activation_hook( __FILE__, 'gama_rewrite_flush' );
 require plugin_dir_path( __FILE__ ) . 'includes/class-gama-core.php';
 
 /**
+ * The code for Walker Menu: DL Menu (Responsive Multi-Level Menu)
+ */
+require plugin_dir_path( __FILE__ ) . 'includes/class-gama-core-dl-menu.php';
+
+/**
  * Begins execution of the plugin.
  *
  * Since everything within the plugin is registered via hooks,
