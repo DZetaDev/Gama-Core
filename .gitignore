@@ -34,6 +34,12 @@ Thumbs.db
 nbproject
 *.sublime-project
 *.sublime-workspace
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
 
 # Dreamweaver added files
 _notes
