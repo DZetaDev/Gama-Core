@@ -112,11 +112,12 @@ class Gama_Core_Public {
 		 * class.
 		 */
 
+		wp_enqueue_script( $this->gama_core, plugin_dir_url( __FILE__ ) . 'js/jquery.dlmenu.js', array( 'jquery' ), '1.0.1', false );
 		wp_enqueue_script( $this->gama_core, plugin_dir_url( __FILE__ ) . 'js/gama-core-public.js', array( 'jquery' ), $this->version, false );
 		if ( ! ( $this->current_theme->exists() || $this->current_theme_alt->exists() ) ) {
-			wp_enqueue_script( $this->gama_core, plugin_dir_url( __FILE__ ) . 'js/modernizr.custom.js', array(), '2.8.3 ', false );
+			wp_enqueue_script( $this->gama_core, plugin_dir_url( __FILE__ ) . 'js/modernizr.custom.js', array(), '2.8.3', false );
 		}
-		wp_enqueue_script( $this->gama_core, plugin_dir_url( __FILE__ ) . 'js/jquery.dlmenu.js', array(), '2.8.3 ', true );
+
 
 	}
 

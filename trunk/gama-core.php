@@ -41,7 +41,12 @@ function deactivate_gama_core() {
 	Gama_Core_Deactivator::deactivate();
 }
 
-add_action( 'init', 'gama_custom_post_types' );
+/**
+ * Custom Post Types
+ */
+require plugin_dir_path( __FILE__ ) . 'includes/gama-core-custom-post-types.php';
+
+add_action( 'init', 'gama_core_custom_post_types' );
 register_activation_hook( __FILE__, 'activate_gama_core' );
 register_deactivation_hook( __FILE__, 'deactivate_gama_core' );
 register_activation_hook( __FILE__, 'gama_rewrite_flush' );
