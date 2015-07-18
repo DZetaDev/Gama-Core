@@ -62,7 +62,7 @@ function gama_core_custom_post_types() {
 		'publicly_queryable' => true,
 		'show_ui'            => true,
 		'show_in_menu'       => true,
-		'menu_icon'          => 'dashicons-id-alt',
+		'menu_icon'          => 'dashicons-businessman',
 		'query_var'          => true,
 		'rewrite'            => array( 'slug' => 'team' ),
 		'capability_type'    => 'post',
@@ -96,7 +96,7 @@ function gama_core_custom_post_types() {
 		'publicly_queryable' => true,
 		'show_ui'            => true,
 		'show_in_menu'       => true,
-		'menu_icon'          => 'dashicons-id-alt',
+		'menu_icon'          => 'dashicons-index-card',
 		'query_var'          => true,
 		'rewrite'            => array( 'slug' => 'portfolio' ),
 		'capability_type'    => 'post',
@@ -157,6 +157,127 @@ function gama_core_custom_post_types() {
 	);
 
 	register_taxonomy( 'portfolio-tag', 'portfolio', $args );
+
+	// Type of Product/Service taxonomy
+	$labels = array(
+		'name'              => __( 'Type of Products/Services', 'gama-core' ),
+		'singular_name'     => __( 'Type of Product/Service', 'gama-core' ),
+		'search_items'      => __( 'Search Types of Products/Services', 'gama-core' ),
+		'all_items'         => __( 'All Types of Products/Services', 'gama-core' ),
+		'parent_item'       => __( 'Parent Type of Product/Service', 'gama-core' ),
+		'parent_item_colon' => __( 'Parent Type of Product/Service:', 'gama-core' ),
+		'edit_item'         => __( 'Edit Type of Product/Service', 'gama-core' ),
+		'update_item'       => __( 'Update Type of Product/Service', 'gama-core' ),
+		'add_new_item'      => __( 'Add New Type of Product/Service', 'gama-core' ),
+		'new_item_name'     => __( 'New Type of Product/Service Name', 'gama-core' ),
+		'menu_name'         => __( 'Type of Product/Service', 'gama-core' ),
+	);
+
+	$args = array(
+		'hierarchical'      => true,
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+		'rewrite'           => array( 'slug' => 'product-types' ),
+	);
+
+	register_taxonomy( 'product-type', array( 'review' ), $args );
+
+	// FAQ
+	$labels = array(
+		'name'                 => __( 'FAQ', 'gama-core' ),
+		'singular_name'        => __( 'FAQ', 'gama-core' ),
+		'menu_name'            => __( 'FAQs', 'gama-core' ),
+		'all_items'            => __( 'All FAQs', 'gama-core' ),
+		'add_new'              => __( 'Add New', 'gama-core' ),
+		'add_new_item'         => __( 'Add New FAQ', 'gama-core' ),
+		'edit'                 => __( 'Edit', 'gama-core' ),
+		'edit_item'            => __( 'Edit FAQ', 'gama-core' ),
+		'new_item'             => __( 'New FAQ', 'gama-core' ),
+		'view'                 => __( 'View', 'gama-core' ),
+		'view_item'            => __( 'View FAQ', 'gama-core' ),
+		'search_items'         => __( 'Search FAQ', 'gama-core' ),
+		'not_found'            => __( 'No FAQs found', 'gama-core' ),
+		'not_found_in_trash'   => __( 'No FAQ found in Trash', 'gama-core' ),
+		'parent'               => __( 'Parent FAQ', 'gama-core' ),
+	);
+
+	$args = array(
+		'labels'                 => $labels,
+		'description'            => __( 'Frequently Asked Questions', 'gama-core' ),
+		'public'                 => true,
+		'show_ui'                => true,
+		'has_archive'            => true,
+		'show_in_menu'           => true,
+		'exclude_from_search'    => false,
+		'capability_type'        => 'post',
+		'map_meta_cap'           => true,
+		'hierarchical'           => false,
+		'rewrite'                => array( 'slug' => 'faq', 'with_front' => true ),
+		'query_var'              => true,
+		'menu_icon'              => 'dashicons-info',
+		'menu_position'          => 5,
+		'supports'               => array( 'title', 'editor', 'revisions', 'thumbnail', 'author' ),
+		'taxonomies'             => array( 'faq-tag', 'faqs-categories' )
+	);
+	register_post_type( 'faq', $args );
+
+	// Custom taxonomy for FAQ Tags
+	$labels = array(
+		'name'          => __( 'FAQ Tags', 'gama-core' ),
+		'singular_name' => __( 'FAQ Tag', 'gama-core' )
+	);
+
+	$args = array(
+		'labels'             => $labels,
+		'public'             => true,
+		'show_ui'            => true,
+		'show_in_nav_menus'  => false,
+		'query_var'          => true,
+		'rewrite' => array(
+			'slug'           => 'faq-tag',
+			'with_front'     => false,
+			'hierarchical'   => false,
+		),
+		'args'               => array(
+			'orderby' => 'term_order',
+		),
+		'show_admin_column'  => true,
+	);
+
+	register_taxonomy( 'faq-tag', 'faq', $args );
+
+	// FAQ Categories taxonomy
+	$labels = array(
+		'name'                       => __( 'FAQ Categories', 'gama-core' ),
+		'label'                      => __( 'FAQ Categories', 'gama-core' ),
+		'menu_name'                  => __( 'FAQ Categories', 'gama-core' ),
+		'all_items'                  => __( 'All FAQ Categories', 'gama-core' ),
+		'edit_item'                  => __( 'Edit FAQ Category', 'gama-core' ),
+		'view_item'                  => __( 'View FAQ Category', 'gama-core' ),
+		'update_item'                => __( 'Update FAQ Category', 'gama-core' ),
+		'add_new_item'               => __( 'Add New FAQ Category', 'gama-core' ),
+		'new_item_name'              => __( 'New FAQ Category Name', 'gama-core' ),
+		'parent_item'                => __( 'Parent FAQ Category', 'gama-core' ),
+		'parent_item_colon'          => __( 'Parent FAQ Category:', 'gama-core' ),
+		'search_items'               => __( 'Search FAQ Categories', 'gama-core' ),
+		'popular_items'              => __( 'Popular FAQ Categories', 'gama-core' ),
+		'separate_items_with_commas' => __( 'Separate Categories with commas', 'gama-core' ),
+		'add_or_remove_items'        => __( 'Add or Remove FAQ Categories', 'gama-core' ),
+		'choose_from_most_used'      => __( 'Choose from the most used FAQ Categories', 'gama-core' ),
+		'not_found'                  => __( 'No FAQ Categories found', 'gama-core' ),
+	);
+	$args = array(
+		'labels'             => $labels,
+		'hierarchical'       => false,
+		'label'              => __( 'FAQ Categories', 'gama-core' ),
+		'show_ui'            => true,
+		'query_var'          => true,
+		'rewrite'            => array( 'slug' => 'faqs-categories', 'with_front' => true ),
+		'show_admin_column'  => false,
+	);
+	register_taxonomy( 'faqs-categories', 'faq', $args );
 
 	// Review
 	$labels = array(
@@ -242,32 +363,6 @@ function gama_core_custom_post_types() {
 	);
 
 	register_taxonomy( 'review-tag', 'review', $args );
-
-	// Type of Product/Service taxonomy
-	$labels = array(
-		'name'              => __( 'Type of Products/Services', 'gama-core' ),
-		'singular_name'     => __( 'Type of Product/Service', 'gama-core' ),
-		'search_items'      => __( 'Search Types of Products/Services', 'gama-core' ),
-		'all_items'         => __( 'All Types of Products/Services', 'gama-core' ),
-		'parent_item'       => __( 'Parent Type of Product/Service', 'gama-core' ),
-		'parent_item_colon' => __( 'Parent Type of Product/Service:', 'gama-core' ),
-		'edit_item'         => __( 'Edit Type of Product/Service', 'gama-core' ),
-		'update_item'       => __( 'Update Type of Product/Service', 'gama-core' ),
-		'add_new_item'      => __( 'Add New Type of Product/Service', 'gama-core' ),
-		'new_item_name'     => __( 'New Type of Product/Service Name', 'gama-core' ),
-		'menu_name'         => __( 'Type of Product/Service', 'gama-core' ),
-	);
-
-	$args = array(
-		'hierarchical'      => true,
-		'labels'            => $labels,
-		'show_ui'           => true,
-		'show_admin_column' => true,
-		'query_var'         => true,
-		'rewrite'           => array( 'slug' => 'product-types' ),
-	);
-
-	register_taxonomy( 'product-type', array( 'review' ), $args );
 
 }
 
